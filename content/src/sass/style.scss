@@ -1,0 +1,161 @@
+﻿$mainColor: #212529;
+$greyBackground: #f6f6f6;
+$mainFont: Lato, sans-serif;
+$secondaryFont: News Cycle, sans-serif;
+$fontColorLight: #ffffff;
+$fontColorMedium: #424242;
+$fontColorDark: #000000;
+$fontSizeBig: 30px;
+$fontSizesmall: 15px;
+
+.navbar {
+    margin-bottom: 0;
+    background-color: $mainColor;
+    z-index: 9999;
+    border: 0;
+    font-size: $fontSizesmall !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: $fontColorLight !important;
+    font-size: $fontSizesmall !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: $mainColor !important;
+    background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: $fontColorLight !important;
+}
+
+.jumbotron {
+    background-color: $mainColor;
+    font-family: $mainFont;
+    color: $fontColorLight;
+    height: 100vh;
+}
+
+.jumbotron > p {
+    letter-spacing: 4px;
+    color: $fontColorLight;
+    text-shadow: 0 0 2px #fff, 0 0 6px #fff;
+}
+
+
+
+.container-fluid {
+    padding: 60px 50px;
+}
+
+.bg-grey {
+    background-color: $greyBackground;
+}
+
+.logo-small {
+    color: $mainColor;
+    font-size: $fontSizesmall;
+}
+
+.panel {
+    border: 1px solid $mainColor;
+    border-radius: 0;
+    transition: box-shadow 0.5s;
+}
+
+.panel:hover {
+    box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+}
+
+.panel-footer .btn:hover {
+    border: 1px solid $mainColor;
+    background-color: #fff !important;
+    color: $mainColor;
+}
+
+.panel-heading {
+    color: #fff !important;
+    background-color: $mainColor !important;
+    padding: 25px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.panel-footer {
+    background-color: #fff !important;
+}
+
+.panel-footer h3 {
+    font-size: 32px;
+}
+
+.panel-footer h4 {
+    color: #aaa;
+    font-size: 14px;
+}
+
+.panel-footer .btn {
+    margin: 15px 0;
+    background-color: $mainColor;
+    color: #fff;
+}
+
+footer .glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: $mainColor;
+}
+
+.bal-container {
+    position: relative;
+    max-width: 500px;
+    height: 500px;
+    overflow: hidden;
+}
+
+.bal-after {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.bal-before {
+    display: block;
+    position: absolute;
+    top: 0;
+    /* right: 0; */
+    bottom: 0;
+    left: 0;
+    z-index: 15;
+    overflow: hidden;
+}
+
+.bal-before-inset {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.bal-after img,
+.bal-before img {
+    object-fit: cover;
+    position: absolute;
+    object-position: 50% 50%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    user-select: none;
+}

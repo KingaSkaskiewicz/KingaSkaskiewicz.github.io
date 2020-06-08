@@ -1,4 +1,10 @@
-﻿class BeerSlider {
+﻿/*Based on:
+BeerSlider
+
+The MIT License (MIT)
+
+Copyright 2018 PeHaa Hetman*/
+class BeerSlider {
 
     constructor(element, { start = '50', prefix = 'beer' } = {}) {
         this.start = parseInt(start) ? Math.min(100, Math.max(0, parseInt(start))) : 50

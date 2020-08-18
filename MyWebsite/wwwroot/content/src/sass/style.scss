@@ -14,6 +14,9 @@ $fontSizeBig: 27px;
 $fontSizeMedium: 23px;
 $fontSizeSmall: 18px;
 
+a {
+    text-decoration: none;
+}
 
 .bigFont {
     font-family: $mainFont;
@@ -308,4 +311,12 @@ footer .glyphicon {
             opacity: 0.8;
         }
     }
-   
+
+.ribbon {
+    text-align: center;
+    position: relative;
+    color: #f0f0f0;
+    background-color: #e43;
+    text-decoration: none !important;
+}
+

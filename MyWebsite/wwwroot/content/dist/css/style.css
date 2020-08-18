@@ -1,3 +1,6 @@
+a {
+  text-decoration: none; }
+
 .bigFont {
   font-family: Lato, sans-serif;
   font-size: 27px;
@@ -228,3 +231,10 @@ footer .go-to-top {
     transform: scale(1);
     text-shadow: 0 0 5px #ffffff;
     opacity: 0.8; }
+
+.ribbon {
+  text-align: center;
+  position: relative;
+  color: #f0f0f0;
+  background-color: #e43;
+  text-decoration: none !important; }

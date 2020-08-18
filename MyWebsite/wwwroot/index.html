@@ -12,7 +12,6 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link href='https://fonts.googleapis.com/css?family=News Cycle' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -59,11 +58,11 @@
                 </div>
 
                 <div ng-mouseenter="onJumbotronBackgroundMouseEnter(1)" class="col-sm-6 backround-top" style="position:absolute; left: 0; top: 0">
-                      <img src="content\dist\images\Background.jpg">
-                  </div>
-                  <div ng-mouseenter="onJumbotronBackgroundMouseEnter(2)" class="col-sm-6 backround-top" style="position:absolute; right: 0; top: 0">
-                      <img src="content\dist\images\Background de.jpg">
-                  </div>
+                    <img src="content\dist\images\Background.jpg">
+                </div>
+                <div ng-mouseenter="onJumbotronBackgroundMouseEnter(2)" class="col-sm-6 backround-top" style="position:absolute; right: 0; top: 0">
+                    <img src="content\dist\images\Background de.jpg">
+                </div>
 
             </div>
         </div>
@@ -167,11 +166,37 @@
                 </div>
             </div>
         </div>
-
+        
         <div id="portfolio" class="portfolio container-fluid">
             <div class="text-center">
                 <p class="bigFont">PORTFOLIO</p>
-                <p class="mediumFont">What I have created</p class="mediumFont">
+                <p class="mediumFont">What I have created</p>
+            </div>
+            <div class="row">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-6 col-xs-12">
+                    
+                    <div class="panel panel-default text-center">
+                        <div class="panel-heading">
+                            <p class="bigFont">HOME SHOP</p>
+                        </div>
+                        <div class="ribbon">NEW</div>
+                        <a href="https://kingaskaskiewicz.github.io/Shop/" target="_blank">
+                                <img class="portfolio-screen" src="content\dist\images\homesweet.jpg" alt="Home Shop">
+                        </a>
+                        <div class="panel-body">
+                            <p class="smallFont">
+                                Online shop with homeware. You can search specific products inside SALE and CATEGORIES, add items into the basket, add discount code (LATO10), fill in delivery form.
+                                Fully responsive, made in HTML, CSS/SASS and JS/AngularJS.
+                            </p>
+                            <div class="panel-footer">
+                                <a href="https://kingaskaskiewicz.github.io/Shop/" class="btn btn-lg" target="_blank">DEMO</a>
+                                <a href="https://github.com/KingaSkaskiewicz/Shop" class="btn btn-lg" target="_blank">CODE</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3"></div>
             </div>
             <div class="row">
                 <div class="col-sm-6 col-xs-12">

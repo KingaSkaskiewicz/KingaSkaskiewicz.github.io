@@ -7,3 +7,5 @@
 /MyWebsite/obj
 /MyWebsite/node_modules
 /MyWebsiteAngular/obj/Debug
+/MyWebsiteAngular/app/node_modules
+/MyWebsiteAngular/app/dist/app

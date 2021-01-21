@@ -32,6 +32,58 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="app\.gitignore" />
+    <Content Include="app\custom_scripts\beerSlider.js" />
+    <Content Include="app\e2e\protractor.conf.js" />
+    <Content Include="app\karma.conf.js" />
+    <Content Include="app\src\app\components\app\app.component.css" />
+    <Content Include="app\src\app\components\app\app.component.html" />
+    <Content Include="app\src\assets\amoreMio.jpg" />
+    <Content Include="app\src\assets\Background de.jpg" />
+    <Content Include="app\src\assets\Background.jpg" />
+    <Content Include="app\src\assets\Calculator.jpg" />
+    <Content Include="app\src\assets\coderb.png" />
+    <Content Include="app\src\assets\designerb.png" />
+    <Content Include="app\src\assets\favicon.ico" />
+    <Content Include="app\src\assets\homesweet.jpg" />
+    <Content Include="app\src\assets\Jackpot.jpg" />
+    <Content Include="app\src\assets\MemoryGame.jpg" />
+    <Content Include="app\src\assets\ToDoList.jpg" />
+    <Content Include="app\src\favicon.ico" />
+    <Content Include="app\src\index.html" />
+    <Content Include="app\src\main.js" />
+    <Content Include="app\src\styles.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app\.browserslistrc" />
+    <None Include="app\.editorconfig" />
+    <None Include="app\angular.json" />
+    <None Include="app\custom_scripts\beerSlider.js.map" />
+    <None Include="app\e2e\tsconfig.json" />
+    <None Include="app\package-lock.json" />
+    <None Include="app\package.json" />
+    <None Include="app\README.md" />
+    <None Include="app\src\assets\.gitkeep" />
+    <None Include="app\src\main.js.map" />
+    <None Include="app\tsconfig.app.json" />
+    <None Include="app\tsconfig.json" />
+    <None Include="app\tsconfig.spec.json" />
+    <None Include="app\tslint.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="app\custom_scripts\beerSlider.ts" />
+    <TypeScriptCompile Include="app\e2e\src\app.e2e-spec.ts" />
+    <TypeScriptCompile Include="app\e2e\src\app.po.ts" />
+    <TypeScriptCompile Include="app\src\app\app-routing\app-routing.module.ts" />
+    <TypeScriptCompile Include="app\src\app\app.module.ts" />
+    <TypeScriptCompile Include="app\src\app\components\app\app.component.spec.ts" />
+    <TypeScriptCompile Include="app\src\app\components\app\app.component.ts" />
+    <TypeScriptCompile Include="app\src\environments\environment.prod.ts" />
+    <TypeScriptCompile Include="app\src\environments\environment.ts" />
+    <TypeScriptCompile Include="app\src\main.ts" />
+    <TypeScriptCompile Include="app\src\polyfills.ts" />
+    <TypeScriptCompile Include="app\src\test.ts" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
